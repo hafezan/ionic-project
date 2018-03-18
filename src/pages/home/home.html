@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic class 1
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  Ionic
+  <p>
+    First ionic class.
+  </p>
+  <p>
+  {{counter}}
+  {{message}}<!--interpolation!-->
+  <button ion-button (click)="increment()">Increment</button>
+  <button ion-button color="secondary" (click)="decrement()">Decrement</button>
+  <button ion-button color="danger" (click)="reset()">Reset</button>
+</p>
+</ion-content>
